@@ -175,6 +175,32 @@ body {
     font-weight: 700;
 }
 
+.home__title .animated-text {
+    border-right: 4px solid #000;
+    padding-right: 10px;
+    animation: typing 3s, blinking 1s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+    
+}
+
+@keyframes blinking {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
+}
+
 .home-text {
     padding-top: 18px;
     font-weight: 400;
