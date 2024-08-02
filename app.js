@@ -12,7 +12,7 @@ const typeText = () => {
 
 function getRandomInt(min = 50, max = 350) {
     let rand = min + Math.random() * (max + 1 - min);
-    return Math.floor(rand)
+    return Math.floor(rand);
 }
 
 typeText();
